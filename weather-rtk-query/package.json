@@ -2,7 +2,7 @@
   "name": "weather-rtk-query",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juribuerkle.github.io/JavaScript_Weather_APP",
+  "homepage": "https://juribuerkle.github.io/Weather_APP",
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.0",
     "@testing-library/dom": "^10.4.1",
