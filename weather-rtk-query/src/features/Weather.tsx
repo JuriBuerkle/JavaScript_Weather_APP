@@ -181,7 +181,7 @@ const Weather: React.FC = () => {
                     refetchWeather();
                 }}
             >
-                🔄 Обновить погоду
+                🔄 Wetter aktualisieren
             </button>
         </div>
     );

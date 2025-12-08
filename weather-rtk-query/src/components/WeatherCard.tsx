@@ -120,16 +120,16 @@ const WeatherCard: React.FC<WeatherCardProps> = ({
             <p className="city-name">{city}</p>
             <div className="weather-info">
                 <p>
-                    <strong>🌡️ Температура:</strong> {temperature}{temperatureUnit}
+                    <strong>🌡️ Temperatur:</strong> {temperature}{temperatureUnit}
                 </p>
                 <p>
-                    <strong>💨 Скорость ветра:</strong> {windSpeed} {windSpeedUnit}
+                    <strong>💨 Windgeschwindigkeit:</strong> {windSpeed} {windSpeedUnit}
                 </p>
                 <p>
-                    <strong>🌬️ Порывы ветра:</strong> {windGusts} {windGustsUnit}
+                    <strong>🌬️ Windböen:</strong> {windGusts} {windGustsUnit}
                 </p>
                 <p>
-                    <strong>☁️ Условия:</strong> {interpretWeatherCode(weatherCode)}
+                    <strong>☁️ Bedingungen:</strong> {interpretWeatherCode(weatherCode)}
                 </p>
             </div>
         </div>
